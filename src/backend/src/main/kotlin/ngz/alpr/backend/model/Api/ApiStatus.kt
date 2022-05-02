@@ -1,4 +1,4 @@
-package ngz.alpr.backend.model.Api
+package ngz.alpr.backend.model.api
 
 import ngz.alpr.backend.interfaces.IApiResponse
 import org.springframework.http.HttpStatus
