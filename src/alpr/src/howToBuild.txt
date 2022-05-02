@@ -1,0 +1,6 @@
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc ..
+make
+sudo make install
+./alprd --config ../../config/ -f 

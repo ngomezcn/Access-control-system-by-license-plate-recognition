@@ -1,0 +1,134 @@
+### Post 'Hello!"
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Hello!"
+}
+
+### Post "Bonjour!"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Bonjour!"
+}
+
+### Post "Privet!"
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "text": "Privet!"
+}
+
+### Get all the messages
+GET http://localhost:8080/api/v1/authcars
+
+###### not demo
+
+POST http://localhost:8080/api/v1/authcars
+Content-Type: application/json
+
+{
+  "plate":"xd",
+  "open_time":"01:00",
+  "close_time":"21:00"
+}
+###### not demo
+
+POST http://localhost:8080/api/v1/authcars
+Content-Type: application/json
+
+{
+  "plate":"qwertyu",
+  "register_date":"2020-03-01",
+  "drop_out_date":"2020-03-01",
+  "open_time":"01:00",
+  "close_time":"21:00"
+}
+###### not demo
+
+DELETE http://localhost:8080/api/v1/authcars?id=a0dc3b0c-e02b-4f5e-b8ec-1ac6aeb0c417
+Content-Type: application/json
+
+###### not demo
+
+PUT http://localhost:8080/api/v1/authcars/update
+Content-Type: application/json
+
+{
+  "id": "6379fadd-66b4-43ef-bfd0-c4aa738b0f91",
+  "plate": "CACA",
+  "register_date": null,
+  "drop_out_date": null,
+  "open_time": "09:00",
+  "close_time": "21:00"
+}
+
+###### waw
+
+POST http://localhost:8080/api/v1/receiver
+Content-Type: application/json
+
+{
+  "version":2,
+  "data_type":"alpr_results",
+  "epoch_time":1649179506560,
+  "img_width":640,
+  "img_height":480,
+  "processing_time_ms":320.790497,
+  "regions_of_interest":[
+    {
+      "x":0,
+      "y":0,
+      "width":640,
+      "height":480
+    }
+  ],
+  "results":[
+    {
+      "plate":"SFASDFS",
+      "confidence":78.695168,
+      "matches_template":0,
+      "plate_index":0,
+      "region":"es",
+      "region_confidence":0,
+      "processing_time_ms":106.580856,
+      "requested_topn":1,
+      "coordinates":[
+        {
+          "x":184,
+          "y":66
+        },
+        {
+          "x":473,
+          "y":92
+        },
+        {
+          "x":468,
+          "y":158
+        },
+        {
+          "x":180,
+          "y":128
+        }
+      ],
+      "candidates":[
+        {
+          "plate":"I81GYR",
+          "confidence":78.695168,
+          "matches_template":0
+        }
+      ]
+    }
+  ],
+  "uuid":"-cam1-1649179506901",
+  "camera_id":1,
+  "site_id":"",
+  "img_width":640,
+  "img_height":480
+}
+
