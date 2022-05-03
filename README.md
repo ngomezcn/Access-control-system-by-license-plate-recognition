@@ -18,5 +18,8 @@ The idea behind this project is to be able to implement a parking access control
 #### Detect plate and activate relay using smartphone as IP camera
 <img src="./resources/full.gif" width="550" height="100%">
 
+#### Example UI
+<img src="./resources/add.gif" width="550" height="100%">
+
 
 
