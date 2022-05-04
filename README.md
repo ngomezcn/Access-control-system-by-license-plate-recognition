@@ -35,7 +35,3 @@ Build the alpr from the source (only linux):
       sudo make install
 
 
-#### Server
-ToDo
-#### Client app
-ToDo
