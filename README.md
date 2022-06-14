@@ -23,15 +23,7 @@ The idea behind this project is to be able to implement a parking access control
 <img src="./resources/add.gif" width="550" height="100%">
 
 ### **How to deploy**
+- TODO
 
-### OpenAlpr
-Build the alpr from the source (only linux): 
-
-      git clone https://github.com/ngomezcn/Parking-Access-Control-w-computer-vision
-      cd Parking-Access-Control-w-computer-vision/src/alpr/src/
-      mkdir build/
-      cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc ..
-      make
-      sudo make install
 
 
