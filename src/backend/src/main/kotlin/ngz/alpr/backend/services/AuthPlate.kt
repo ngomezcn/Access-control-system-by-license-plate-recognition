@@ -8,7 +8,6 @@ import java.sql.Timestamp
 data class AuthPlate(
     @Id
     val id: String?,
-
     val plate: String,
     val register_date: Timestamp?,
     val drop_out_date: Timestamp?,

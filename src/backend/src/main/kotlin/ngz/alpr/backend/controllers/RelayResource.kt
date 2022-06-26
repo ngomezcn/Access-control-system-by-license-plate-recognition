@@ -1,7 +1,7 @@
 package ngz.alpr.backend.controllers
 
 import ngz.alpr.backend.interfaces.IApiResponse
-import ngz.alpr.backend.model.api.*
+import ngz.alpr.backend.models.api.*
 import ngz.alpr.backend.relays
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*

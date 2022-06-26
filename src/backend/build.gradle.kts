@@ -25,6 +25,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
     implementation("javax.persistence:javax.persistence-api:2.2")
 
+    annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
+
+
     runtimeOnly("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     runtimeOnly("org.postgresql:postgresql")

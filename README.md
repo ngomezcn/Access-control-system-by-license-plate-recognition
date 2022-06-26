@@ -22,8 +22,21 @@ The idea behind this project is to be able to implement a parking access control
 #### Example UI
 <img src="./resources/add.gif" width="550" height="100%">
 
-### **How to deploy**
-- TODO
+### **How to deploy dev enviroment**
+
+```
+git clone https://github.com/ngomezcn/Car-access-control
+```
+```
+cd src/frontend
+npm install # if not works npm install --force
+```
+
+```
+npm start
+```
+
+
 
 
 

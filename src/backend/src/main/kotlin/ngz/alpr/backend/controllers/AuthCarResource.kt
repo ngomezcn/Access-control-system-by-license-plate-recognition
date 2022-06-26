@@ -1,8 +1,7 @@
 package ngz.alpr.backend.controllers
 
 import ngz.alpr.backend.interfaces.IApiResponse
-import ngz.alpr.backend.model.*
-import ngz.alpr.backend.model.api.*
+import ngz.alpr.backend.models.api.*
 import ngz.alpr.backend.services.AuthPlate
 import ngz.alpr.backend.services.AuthPlateService
 import org.springframework.http.HttpStatus

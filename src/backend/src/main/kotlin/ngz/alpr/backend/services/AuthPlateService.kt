@@ -16,7 +16,7 @@ class  AuthPlateService(val db: IAuthPlateRepository) {
     fun delete(id: String) {
         if (!db.existsById(id)) {
             throw IllegalStateException(
-                "La matrícula $id no existe."
+                "The license plate $id is not in the database"
             )
         }
         db.deleteById(id)
@@ -25,7 +25,7 @@ class  AuthPlateService(val db: IAuthPlateRepository) {
     fun update(authPlate: AuthPlate) {
         if (!authPlate.id?.let { db.existsById(it) }!!) {
             throw IllegalStateException(
-                "La matrícula ${authPlate.id} no existe."
+                "The license plate ${authPlate.id} is not in the database"
             )
         }
         db.save(authPlate)

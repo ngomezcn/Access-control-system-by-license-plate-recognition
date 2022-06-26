@@ -1,4 +1,4 @@
-package ngz.alpr.backend.model.alpr
+package ngz.alpr.backend.models.alpr
 
 data class Results (
 

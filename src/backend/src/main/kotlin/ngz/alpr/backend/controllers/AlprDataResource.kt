@@ -1,6 +1,6 @@
 package ngz.alpr.backend.controllers
 
-import ngz.alpr.backend.model.alpr.AlprData
+import ngz.alpr.backend.models.alpr.AlprData
 import ngz.alpr.backend.relays
 import ngz.alpr.backend.services.AuthPlateService
 import org.springframework.web.bind.annotation.*
