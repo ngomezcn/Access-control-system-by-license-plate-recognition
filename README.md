@@ -37,6 +37,25 @@ npm start
 ```
 
 
+### **Alpr**
+```
+sudo apt-get install gcc g++ libleptonica-dev tesseract-ocr libtesseract-dev 
+sudo apt-get install libtool m4 automake cmake pkg-config
+sudo apt-get install libopencv-dev liblog4cplus-dev
+sudo apt-get install liblog4cplus-1.1-9 liblog4cplus-dev build-essential
+```
+
+```
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc ..
+make
+sudo make install
+```
+
+```
+./alprd --config ../../config/ -f 
+```
 
 
 

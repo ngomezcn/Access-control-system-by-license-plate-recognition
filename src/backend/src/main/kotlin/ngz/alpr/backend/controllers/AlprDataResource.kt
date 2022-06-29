@@ -1,5 +1,6 @@
 package ngz.alpr.backend.controllers
 
+import ngz.alpr.backend.accessManager
 import ngz.alpr.backend.models.alpr.AlprData
 import ngz.alpr.backend.services.AuthPlateService
 import org.springframework.web.bind.annotation.*
@@ -30,6 +31,7 @@ class AlprDataResource(val service: AuthPlateService) {
 
                     if(hasAccess) {
                         println("La matricula $recvedPlate tiene acceso!!")
+
                        // relays[0].toggleAsync()
 
                     } else
