@@ -14,6 +14,10 @@ class AlprDataResource(val service: AuthPlateService) {
     @PostMapping
     fun postCam(@RequestBody alprData: AlprData)  {
         val alprResults = alprData.results;
+
+        println()
+        println(alprResults)
+        println()
         if(alprResults.size > 0) {
             val recvedData = alprResults[0];
 
@@ -30,13 +34,13 @@ class AlprDataResource(val service: AuthPlateService) {
                     }
 
                     if(hasAccess) {
-                        println("La matricula $recvedPlate tiene acceso!!")
+                        //println("La matricula $recvedPlate tiene acceso!!")
 
                        // relays[0].toggleAsync()
 
                     } else
                     {
-                        println("La matricula $recvedPlate NO tiene acceso!!")
+                        //println("La matricula $recvedPlate NO tiene acceso!!")
                     }
 
                 }
